@@ -1,0 +1,16 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+}
+
+.box:nth-child(1) { background: tomato; }
+.box:nth-child(2) { background: orange; }
+.box:nth-child(3) { background: gold; }
+.box:nth-child(4) { background: yellowgreen; }
+.box:nth-child(5) { background: mediumseagreen; }
+.box:nth-child(6) { background: skyblue; }
+.box:nth-child(7) { background: dodgerblue; }
+.box:nth-child(8) { background: mediumpurple; }
+.box:nth-child(9) { background: hotpink; }
