@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.gallery {
+    width: 320px;
+    height: 256px;
+    background-color: #c5a63e;
+
+    position: relative;
+}
+
+/* Common image styling */
+
+.animal {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.animal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* First image - Wolf */
+
+.animal1 {
+    top: 7px;
+    left: 18px;
+}
+
+/* Second image - Tiger */
+
+.animal2 {
+    top: 7px;
+    right: 10px;
+}
+
+/* Third image - Lion */
+
+.animal3 {
+    width: 120px;
+    height: 120px;
+    top: 74px;
+    left: 100px;
+    z-index: 2;
+}
+
+/* Fourth image - Dog */
+
+.animal4 {
+    bottom: 8px;
+    left: 18px;
+}
+
+/* Fifth image - Bear */
+
+.animal5 {
+    bottom: 8px;
+    right: 10px;
+}
